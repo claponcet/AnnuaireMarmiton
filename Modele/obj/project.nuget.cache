@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0LrkHOBggchjGnOwv/oajCIo+hGpGwee3R6ntkYr6Rd6H6Pj10Qyr6lxJ/r3Lkt9HtsaZOK3HMV+20jn1sJqxQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ponce\\Documents\\ProjetsPersos\\AnnuaireMarmiton\\Modele\\Modele.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ponce\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ponce\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
