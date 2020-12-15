@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Manager xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Modele">
+  <CheminFichier>C:\Users\ponce\Documents\ProjetsPersos\AnnuaireMarmiton\ConsoleTest\bin\Debug\netcoreapp3.1\..//XML</CheminFichier>
+  <Ingredients>
+    <Ingredient z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Nom>abricot</Nom>
+    </Ingredient>
+    <Ingredient z:Id="i2" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Nom>oeuf</Nom>
+    </Ingredient>
+    <Ingredient z:Id="i3" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Nom>rhubarbe</Nom>
+    </Ingredient>
+    <Ingredient z:Id="i4" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <Nom>sucre</Nom>
+    </Ingredient>
+  </Ingredients>
+  <NomFichier>annuairemarmiton.xml</NomFichier>
+  <Recettes>
+    <Recette z:Id="i5" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <LesIngredients>
+        <Ingredient z:Ref="i2" />
+        <Ingredient z:Ref="i4" />
+      </LesIngredients>
+      <Nom>gauffre</Nom>
+      <NumeroMagazine>2</NumeroMagazine>
+      <categorie>Dessert</categorie>
+      <favoris>true</favoris>
+    </Recette>
+    <Recette z:Id="i6" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <LesIngredients>
+        <Ingredient z:Ref="i2" />
+      </LesIngredients>
+      <Nom>hgggg</Nom>
+      <NumeroMagazine>12</NumeroMagazine>
+      <categorie>PlatViande</categorie>
+      <favoris>true</favoris>
+    </Recette>
+    <Recette z:Id="i7" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <LesIngredients>
+        <Ingredient z:Ref="i2" />
+      </LesIngredients>
+      <Nom>plat</Nom>
+      <NumeroMagazine>3</NumeroMagazine>
+      <categorie>PlatViande</categorie>
+      <favoris>false</favoris>
+    </Recette>
+    <Recette z:Id="i8" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <LesIngredients>
+        <Ingredient z:Ref="i2" />
+        <Ingredient z:Ref="i4" />
+        <Ingredient z:Ref="i3" />
+      </LesIngredients>
+      <Nom>tarte à la rhubarbe</Nom>
+      <NumeroMagazine>34</NumeroMagazine>
+      <categorie>Dessert</categorie>
+      <favoris>false</favoris>
+    </Recette>
+    <Recette z:Id="i9" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/">
+      <LesIngredients>
+        <Ingredient z:Ref="i4" />
+        <Ingredient z:Ref="i1" />
+      </LesIngredients>
+      <Nom>tarte aux abricots</Nom>
+      <NumeroMagazine>3</NumeroMagazine>
+      <categorie>Dessert</categorie>
+      <favoris>false</favoris>
+    </Recette>
+  </Recettes>
+</Manager>

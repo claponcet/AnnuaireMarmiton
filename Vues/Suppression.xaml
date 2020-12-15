@@ -1,0 +1,23 @@
+﻿<Window x:Class="Vues.Suppression"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vues"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Suppression" Height="200" Width="500">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16">
+            <Run Text="Voulez-vous vraiment supprimer :"/>
+            <Run Text="{Binding Nom}"/>
+            <Run Text=" ?"/>
+        </TextBlock>
+        <Button Content="Supprimer" Height="30" Width="70" Foreground="OrangeRed" Background="White"
+                HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="20"
+                x:Name="Supprimer" Click="Supprimer_Click"/>
+        <Button Content="Annuler" Height="30" Width="70" Foreground="OrangeRed" Background="White"
+                HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="100, 20"
+                x:Name="Annuler" Click="Annuler_Click"/>
+    </Grid>
+</Window>
